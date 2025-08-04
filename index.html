@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="video.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu"" src=" header-icons/hamburger-menu.svg"><img
+          class="youtube-logo"
+          src="header-icons/youtube-logo.svg"
+        />
+      </div>
+      <div class="middle-section">
+        <input type="text" placeholder="Search" class="search" />
+        <button class="search-button">
+          <img src="header-icons/search.svg" class="search-icon" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img
+            src="header-icons/voice-search-icon.svg"
+            alt=""
+            class="voice-icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <button class="right-buttons">
+          <div class="upload-icon">
+            <img src="header-icons/upload.svg" class="right-icons" />
+            <div class="tooltip">Create</div>
+          </div>
+        </button>
+        <button class="right-buttons">
+          <div class="yt-apps-icon">
+            <img src="header-icons/youtube-apps.svg" class="right-icons" />
+            <div class="tooltip">Youtube Apps</div>
+          </div>
+        </button>
+        <div class="notifications-count">
+          <div class="notifications-icon">
+            <img src="header-icons/notifications.svg" class="right-icons" />
+            <div class="tooltip">Notifications</div>
+          </div>
+          <div class="count">9</div>
+        </div>
+        <button class="right-buttons">
+          <img src="header-icons/account.jpg" class="account" />
+        </button>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-element">
+        <img src="sidebar/home.svg" class="sidebar-icons" />
+
+        <div>Home</div>
+      </div>
+      <div class="sidebar-element">
+        <img src="sidebar/explore.svg" class="sidebar-icons" />
+
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-element">
+        <img src="sidebar/subscriptions.svg" class="sidebar-icons" />
+
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-element">
+        <img src="sidebar/originals.svg" class="sidebar-icons" />
+
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-element">
+        <img src="sidebar/youtube-music.svg" class="sidebar-icons" />
+
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-element">
+        <img src="sidebar/library.svg" class="sidebar-icons" />
+
+        <div style="margin-bottom: 15px">Library</div>
+      </div>
+    </nav>
+    <main class="video-grid">
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
+          <div class="time">10:00</div>
+        </div>
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-1.jpeg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sunder Pichai!
+            </p>
+            <p class="name">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp" />
+          <div class="time">7:09</div>
+        </div>
+        <div></div>
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-2.jpeg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not to Laugh Challenge #9</p>
+            <p class="name">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.avif" />
+          <div class="time">3:02</div>
+        </div>
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-3.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              SNAKE (Official Music Video) Cheema Y | Gur Sidhu | New Punjabi
+              Song 2024
+            </p>
+            <p class="name">Brown Town Music</p>
+            <p class="video-stats">300M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.avif" />
+          <div class="time">1:04:32</div>
+        </div>
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-4.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              “Intraday and Scalping MASTER CLASS” | Wizard Trader
+            </p>
+            <p class="name">Wizard Trader</p>
+            <p class="video-stats">20k views &#183; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.avif" />
+          <div class="time">11:55</div>
+        </div>
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-5.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">i bought my dream summer house...</p>
+            <p class="name">DovyFX</p>
+            <p class="video-stats">26k views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.avif" />
+          <div class="time">4:22</div>
+        </div>
+
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-6.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              MF GABHRU! (Official Video) KARAN AUJLA | Latest Punjabi Songs
+              2025
+            </p>
+            <p class="name">Karan Aujla</p>
+            <p class="video-stats">11M views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.avif" />
+          <div class="time">10:34</div>
+        </div>
+
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-7.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              I Made $400,000 Day Trading & Spent it All On a Porsche 911 GT3 RS
+            </p>
+            <p class="name">fxalexg</p>
+            <p class="video-stats">570k views &#183; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.avif" />
+          <div class="time">14:55</div>
+        </div>
+
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-8.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Buying a BMW G82 M4 and Modifying it immediately
+            </p>
+            <p class="name">throtl</p>
+            <p class="video-stats">1.3M views &#183; 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.avif" />
+          <div class="time">34:00</div>
+        </div>
+
+        <div class="video-details">
+          <div class="profile-picture">
+            <img src="channel-profile-pics/channel-9.jpg" class="pp" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              CELEBRITY'S JET - Inside Unique $78,000,000 Worth Private Jet
+            </p>
+            <p class="name">Farooq Syed</p>
+            <p class="video-stats">1M views &#183; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
